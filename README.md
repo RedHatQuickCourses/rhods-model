@@ -1,23 +1,65 @@
-# Red Hat OpenShift Data Science Quick Course
+# Creating Machine Learning Models with Red Hat OpenShift Data Science
 
-This is the starter template for creating a new quick course in the **RedHatQuickCourses** GitHub organization. 
+This is the third in a series of 6 courses about Red Hat OpenShift Data Science (RHODS). This courses teaches you how to create machine learning models in RHODS and how to export models using Jupyter Notebooks.
 
-After you create a new repository based on this template, you need to edit and change several files and replace placeholder text and links in them.
+# Creating Course Content
 
-1. Add a _README_ at the root of your repository and leave instructions for people contributing to your quick course. Make sure you provide the link to the GitHub issues page for your course so that contributors and users can report issues and provide feedback about your course.
+Refer to the quick courses [contributor guide](https://redhatquickcourses.github.io/welcome/1/guide/overview.html) to work with this repository.
 
-1. Edit the **antora.yml** file in the repository root.
-    * Change the _name_, _title_ and _version_ attributes
-    * Edit the list of items under the _nav_ attribute to add or remove new chapters/modules to the course.
+## TL;DR Quickstart
 
-1. Edit the antora-playbook.yml file in the repository root.
-    * Edit only the _title_ and _start_page_ attributes in this file. You may not be required to change the other attributes unless the need arises. 
+### Pre-requisites
 
-1. Edit the _supplemental-ui/partials/header-content.hbs_ file and change the link in the _navbar-item_ div to point to the GitHub issues page for your repository.
+* You have a macOS or Linux workstation. Windows has not been tested, or supported. You can try using a WLS2 based environment to run these steps - YMMV!
+* You have a somewhat recent version of the Git client installed on your workstation
+* You have a somewhat new Node.js LTS release (Node.js 16+) installed locally. 
+* Install a recent version of Visual Studio Code. Other editors with asciidoc editing support may work - YMMV, and you are on your own...
 
-1. Edit the files and folders under the _modules_ folder to structure your course content into chapters/modules and sections.
+### Steps
 
-1. Take a brief look at the GitHub actions configuration in the _.github_ folder. It contains basic configuration to auto-generate HTML from the asciidoc source and render it using GitHub pages. Unless you know what you are doing with this, and have prior experience with GitHub actions workflows, do not change these files.
+1. Clone the course repository.
+```
+    $ git clone git@github.com:RedHatQuickCourses/rhods-model.git
+```
 
-## Problems and Feedback
-If you run into any issues, report bugs/suggestions/improvements about this template here - https://github.com/RedHatQuickCourses/course-starter/issues
+2. Install the npm dependencies for the course tooling.
+```
+    $ cd rhods-model
+    $ npm install
+```
+
+3. Start the asciidoc to HTML compiler in the background. This command watches for changes to the asciidoc source content in the **modules** folder and automatically re-generates the HTML content.
+```
+    $ npm run watch:adoc
+```
+4. Start a local web server to serve the generated HTML files. Navigate to the URL printed by this command to preview the generated HTML content in a web browser.
+```
+    $ npm run serve
+```
+
+5. Before you make any content changes, create a local Git branch based on the **main** branch. As a good practice, prefix the branch name with your GitHub ID. Use a suitable branch naming scheme that reflects the content you are creating or changing.
+```
+    $ git checkout -b rsriniva/ch01s01
+```
+
+6. Make your changes to the asciidoc files. Preview the generated HTML and verify that there are no rendering errors.Commit your changes to the local Git branch and push the branch to GitHub.
+```
+    $ git add .
+    $ git commit -m "Added lecture content for chapter 1 section 1"
+    $ git push -u origin rsriniva/ch01s01
+```
+
+7. Create a GitHub pull request (PR) for your changes using the GitHub web UI.
+
+8. Request a review of the PR from your technical peers and/or a member of the PTL team.
+
+9. Make any changes requested by the reviewer in the **same** branch as the PR, and then commit and push your changes to GitHub. If other team members have made changes to the PR, then do not forget to do a **git pull** before committing your changes.
+
+10. Once reviewer(s) approve your PR, you should merge it into the **main** branch.
+
+11. Wait for a few minutes while the automated GitHub action publishes your changes ot the production GitHub pages website.
+
+12. Verify that your changes have been published to the production GitHub pages website at https://redhatquickcourses.github.io/rhods-model
+
+# Problems and Feedback
+If you run into any issues, report bugs/suggestions/improvements about this course here - https://github.com/RedHatQuickCourses/rhods-model/issues
