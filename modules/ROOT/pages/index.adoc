@@ -1,4 +1,4 @@
-= An Example Quick Course
+= Creating Machine Learning Models with Red Hat OpenShift Data Science
 :navtitle: Home
 
 == Introduction

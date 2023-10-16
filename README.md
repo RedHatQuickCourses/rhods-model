@@ -1,19 +1,35 @@
 # Creating Machine Learning Models with Red Hat OpenShift Data Science
 
-This is the third in a series of 6 courses about Red Hat OpenShift Data Science (RHODS). This courses teaches you how to create machine learning models in RHODS and how to export models using Jupyter Notebooks.
+This course is the third in a series of 6 courses about Red Hat OpenShift Data Science (RHODS). This course teaches you how to create machine learning models in RHODS, and how to export models using Jupyter Notebooks.
 
 # Creating Course Content
 
-Refer to the quick courses [contributor guide](https://redhatquickcourses.github.io/welcome/1/guide/overview.html) to work with this repository.
+We use a system called Antora (https://antora.org) to publish courses. Antora expects the files and folders in a source repository to be arranged in a certain opinionated way to simplify the process of writing course content using asciidoc, and then converting the asciidoc source to HTML.
+
+Refer to the quick courses [contributor guide](https://redhatquickcourses.github.io/welcome/1/guide/overview.html) for a detailed guide on how to work with Antora tooling and publish courses.
 
 ## TL;DR Quickstart
 
+This section is intended as a quick start guide for technically experienced members. The contributor guide remains the canonical reference for the course content creation process with detailed explanations, commands, video demonstrations, and screenshots.
+
 ### Pre-requisites
 
-* You have a macOS or Linux workstation. Windows has not been tested, or supported. You can try using a WLS2 based environment to run these steps - YMMV!
+* You have a macOS or Linux workstation. Windows has not been tested, or supported. You can try using a WSL2 based environment to run these steps - YMMV!
 * You have a somewhat recent version of the Git client installed on your workstation
 * You have a somewhat new Node.js LTS release (Node.js 16+) installed locally. 
 * Install a recent version of Visual Studio Code. Other editors with asciidoc editing support may work - YMMV, and you are on your own...
+
+### Antora Files and Folder Structure
+
+The *antora.yml* file lists the chapters/modules/units that make up the course.
+
+Each chapter entry points to a *nav.adoc* file that lists the sections in that chapter. The home page of the course is rendered from *modules/ROOT/pages/index.adoc*.
+
+Each chapter lives in a separate folder under the *modules* directory. All asciidoc source files live under the *modules/CHAPTER/pages* folder. 
+
+To create a new chapter in the course, create a new folder under *modules*. 
+
+To add a new section under a chapter create an entry in the *modules/CHAPTER/nav.adoc* file and then create the asciidoc file in the *modules/CHAPTER/pages* folder.
 
 ### Steps
 
