@@ -1,4 +1,12 @@
-= Section 3
+= Common machine learning workflow
 
-This is _Section 3_ of _Chapter 1_ in the *hello* quick course....
+Data Preparation: Collecting, cleaning, and preprocessing the data like removing outliers
+
+Feature Engineering: Selecting or creating relevant features to represent the data. E.g binning income
+
+Model Creation and Evaluation: Creating and choosing an appropriate model and evaluating its performance
+
+Hyperparameter Tuning: Optimizing model parameters for improved performance. E.g No of trees in RF
+
+Deployment and Monitoring: Deploying the model in a production environment and monitoring its performance over time
 

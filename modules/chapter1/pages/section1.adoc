@@ -1,3 +1,9 @@
-= Section 1
+= Introduction to Machine Learning
 
-This is _Section 1_ of _Chapter 1_ in the *hello* quick course....
+For many problems, it’s difficult to program the correct behavior by hand. E.g. recognizing people and objects or understanding human speech
+
+Machine learning can be a solution to this as we can train an algorithm to automatically learn from data or from experience. It allows computers to learn and make predictions or decisions without being explicitly programmed
+
+It involves training a model on a dataset to recognize patterns and make informed predictions or decisions on new, unseen data
+
+It has revolutionized various industries, including healthcare, finance and transportation

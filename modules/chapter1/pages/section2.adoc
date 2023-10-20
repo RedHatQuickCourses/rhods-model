@@ -1,3 +1,7 @@
-= Section 2
+= Types of machine learning
 
-This is _Section 2_ of _Chapter 1_ in the *hello* quick course....
+Supervised learning: Learning from labeled data. The model learns to generalize from the training data and make predictions on unseen data. E.g estimate the price of a house, recognize which animal is present in a picture
+
+Reinforcement learning: It  involves an agent learning to make decisions through trial and error interactions with an environment. The agent receives feedback in the form of rewards or penalties for its actions, guiding it towards achieving a goal by maximizing the rewards. E.g Autonomous driving, AlphaGo learning Go by playing against itself
+
+Unsupervised learning: Learning from unlabeled data to discover patterns or relationships without explicit guidance. The model discovers hidden structures or insights within the data. E.g Identify different segments or groups of customers based on their spending habits, items that have a high possibility of being purchased together in a supermarket, anomaly detection
