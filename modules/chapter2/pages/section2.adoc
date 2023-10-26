@@ -1,0 +1,3 @@
+= Data Exploration
+
+This section covers Data Exploration of the Diabetes dataset that we would be using for this lab

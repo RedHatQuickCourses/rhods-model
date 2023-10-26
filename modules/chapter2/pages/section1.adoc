@@ -1,3 +1,43 @@
-= Section 1
+= RHODS
 
-This is _Section 1_ of _Chapter 2_ in the *hello* quick course....
+This section covers how to set up a Data Science project in RHODS and how to create a new Workbench for us to work on our code
+
+== Create a new data science project
+
+image::dsp_1.png[align="center"]
+
+image::dsp_2.png[align="center"]
+
+== Create a new Workbench to work on
+
+image::wb_1.png[align="center"]
+
+Click on Create workbench. We will select the PyTorch Image for this lab. We can keep the other selections same as the defaults
+
+image::wb_2.png[align="center"]
+
+== Resolve pod start error
+
+image::err_1.png[align="center"]
+
+Go back to the cluster to the Administrator view and the Administration tab
+
+image::err_2.png[align="center"]
+
+Now delete the Limit Range for the pytorch-demo namespace or for whatever namespace that you have
+
+image::err_3.png[align="center"]
+
+Now go to the Workloads tab and Click on StatefulSets. Scroll to your project in the Projects dropdown and delete the StatefulSet that is created.
+
+image::err_4.png[align="center"]
+
+image::err_5.png[align="center"]
+
+After doing this the pod will start correctly. Now go back to the RHODS UI and we can see that our pod is pulling the image
+
+image::progress_1.png[align="center"]
+
+Wait till the Status goes to Running
+
+image::progress_2.png[align="center"]
