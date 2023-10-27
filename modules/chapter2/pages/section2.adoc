@@ -1,3 +1,7 @@
 = Data Exploration
 
 This section covers Data Exploration of the Diabetes dataset that we would be using for this lab
+
+Open the pytorch demo WorkBench and clone the following Github repository https://github.com/RedHatQuickCourses/rhods-qc-apps.git
+
+Go to the location 3.create-model/pytorch-lab/notebooks and open the 01-data-exploration.ipynb notebook and follow the instructions
