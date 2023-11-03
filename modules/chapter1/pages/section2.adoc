@@ -11,3 +11,5 @@ Model Creation and Evaluation: Creating and choosing an appropriate model and ev
 Hyperparameter Tuning: Optimizing model parameters for improved performance. E.g No of trees in RF
 
 Deployment and Monitoring: Deploying the model in a production environment and monitoring its performance over time
+
+image::ml-workflow.png[align="center"]
