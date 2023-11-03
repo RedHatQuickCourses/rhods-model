@@ -20,7 +20,8 @@ Good machine learning scenarios often have the following common properties:
 
 == Types of Machine Learning
 
-Supervised learning: Learning from labeled data. The model learns to generalize from the training data and make predictions on unseen data. E.g estimate the price of a house, recognize which animal is present in a picture
+Supervised learning::
+Learning from labeled data. The model learns to generalize from the training data and make predictions on unseen data. E.g estimate the price of a house, recognize which animal is present in a picture
 
 Unsupervised learning: Learning from unlabeled data to discover patterns or relationships without explicit guidance. The model discovers hidden structures or insights within the data. E.g Identify different segments or groups of customers based on their spending habits, items that have a high possibility of being purchased together in a supermarket, anomaly detection
 
