@@ -1,6 +1,6 @@
 = RHODS
 
-This section covers how to set up a Data Science project in RHODS and how to create a new Workbench for us to work on our code
+We will set up a Data Science project in RHODS and create a new Workbench for us to work on our code
 
 == Create a new data science project
 
@@ -12,7 +12,7 @@ image::dsp_2.png[align="center"]
 
 image::wb_1.png[align="center"]
 
-Click on Create workbench. We will select the PyTorch Image for this lab. We can keep the other selections same as the defaults
+We will select the PyTorch Image for this lab. We can keep the other selections same as the defaults
 
 image::wb_2.png[align="center"]
 
