@@ -2,14 +2,14 @@
 
 == A common machine learning workflow
 
-Data Preparation: Collecting, cleaning, and preprocessing the data like removing outliers
+Data Preparation: Collecting, cleaning, and preprocessing the data. E.g removing outliers.
 
-Feature Engineering: Selecting or creating relevant features to represent the data. E.g binning income
+Feature Engineering: Selecting or creating relevant features to represent the data. E.g binning income.
 
-Model Creation and Evaluation: Creating and choosing an appropriate model and evaluating its performance
+Model Creation and Evaluation: Creating and choosing an appropriate model and evaluating its performance.
 
-Hyperparameter Tuning: Optimizing model parameters for improved performance. E.g No of trees in RF
+Hyperparameter Tuning: Optimizing model parameters for improved performance. E.g Increasing or decreasing the number of trees in the Random Forest algorithm.
 
-Deployment and Monitoring: Deploying the model in a production environment and monitoring its performance over time
+Deployment and Monitoring: Deploying the model in a production environment and monitoring its performance over time.
 
 image::ml-workflow.png[align="center"]
