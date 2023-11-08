@@ -1,4 +1,4 @@
-= Section 1
+= Machine Learning Concepts
 
 == What is Machine Learning
 

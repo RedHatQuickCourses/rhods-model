@@ -1,4 +1,4 @@
-= Section 2
+= ML Workflow
 
 == A common machine learning workflow
 
