@@ -50,13 +50,10 @@
     <a class="nav-link" href="../chapter1/index.html">Introduction to Machine Learning</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter1/section1.html">Section 1</a>
+    <a class="nav-link" href="../chapter1/section1.html">Machine Learning Concepts</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter1/section2.html">Section 2</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter1/section3.html">Section 3</a>
+    <a class="nav-link" href="../chapter1/section2.html">ML Workflow</a>
   </li>
 </ul>
   </li>
@@ -85,7 +82,7 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="../chapter3/index.html">Chapter 3</a>
+    <a class="nav-link" href="../chapter3/index.html">Load a ML model and perform Hyperparameter tuning</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="../chapter3/section1.html">Section 1</a>
@@ -100,7 +97,7 @@
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="../appendix/appendix.html">Appendix A</a>
+    <a class="nav-link" href="../appendix/appendix.html">Appendix</a>
   </li>
 </ul>
   </li>
@@ -147,7 +144,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>We will set up a Data Science project in RHODS and create a new Workbench for us to work on our code.</p>
+<p>Set up a Data Science project in RHODS and create a new Workbench to work on the code.</p>
 </div>
 </div>
 </div>
@@ -167,7 +164,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="_create_a_new_workbench_to_work_on"><a class="anchor" href="#_create_a_new_workbench_to_work_on"></a>Create a new Workbench to work on</h2>
+<h2 id="_create_a_new_workbench"><a class="anchor" href="#_create_a_new_workbench"></a>Create a new Workbench</h2>
 <div class="sectionbody">
 <div class="imageblock text-center">
 <div class="content">
@@ -175,66 +172,11 @@
 </div>
 </div>
 <div class="paragraph">
-<p>We will select the PyTorch Image for this lab. We can keep the other selections same as the defaults.</p>
+<p>Select the PyTorch Image for this lab. Keep the other selections same as the defaults.</p>
 </div>
 <div class="imageblock text-center">
 <div class="content">
 <img src="_images/wb_2.png" alt="wb 2">
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_resolve_pod_start_error"><a class="anchor" href="#_resolve_pod_start_error"></a>Resolve pod start error</h2>
-<div class="sectionbody">
-<div class="imageblock text-center">
-<div class="content">
-<img src="_images/err_1.png" alt="err 1">
-</div>
-</div>
-<div class="paragraph">
-<p>Go back to the cluster to the Administrator view and the Administration tab.</p>
-</div>
-<div class="imageblock text-center">
-<div class="content">
-<img src="_images/err_2.png" alt="err 2">
-</div>
-</div>
-<div class="paragraph">
-<p>Now delete the Limit Range for the your namespace.</p>
-</div>
-<div class="imageblock text-center">
-<div class="content">
-<img src="_images/err_3.png" alt="err 3">
-</div>
-</div>
-<div class="paragraph">
-<p>Now go to the Workloads tab and Click on StatefulSets. Scroll to your project in the Projects dropdown and delete the StatefulSet that is created.</p>
-</div>
-<div class="imageblock text-center">
-<div class="content">
-<img src="_images/err_4.png" alt="err 4">
-</div>
-</div>
-<div class="imageblock text-center">
-<div class="content">
-<img src="_images/err_5.png" alt="err 5">
-</div>
-</div>
-<div class="paragraph">
-<p>After doing this the pod will start correctly. Now go back to the RHODS UI and you can see that the pod is pulling the image.</p>
-</div>
-<div class="imageblock text-center">
-<div class="content">
-<img src="_images/progress_1.png" alt="progress 1">
-</div>
-</div>
-<div class="paragraph">
-<p>Wait till the Status goes to Running.</p>
-</div>
-<div class="imageblock text-center">
-<div class="content">
-<img src="_images/progress_2.png" alt="progress 2">
 </div>
 </div>
 </div>
