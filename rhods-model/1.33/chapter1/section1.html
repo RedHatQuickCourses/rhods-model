@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Section 1 :: Creating Machine Learning Models with Red Hat OpenShift Data Science</title>
+    <title>Machine Learning Concepts :: Creating Machine Learning Models with Red Hat OpenShift Data Science</title>
     <link rel="prev" href="index.html">
     <link rel="next" href="section2.html">
     <meta name="generator" content="Antora 3.1.3">
@@ -47,16 +47,13 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="index.html">Chapter 1</a>
+    <a class="nav-link" href="index.html">Introduction to Machine Learning</a>
 <ul class="nav-list">
   <li class="nav-item is-current-page" data-depth="2">
-    <a class="nav-link" href="section1.html">Section 1</a>
+    <a class="nav-link" href="section1.html">Machine Learning Concepts</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section2.html">Section 2</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section3.html">Section 3</a>
+    <a class="nav-link" href="section2.html">ML Workflow</a>
   </li>
 </ul>
   </li>
@@ -66,10 +63,16 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="../chapter2/index.html">Chapter 2</a>
+    <a class="nav-link" href="../chapter2/index.html">Create and save a Pytorch model</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../chapter2/section1.html">Section 1</a>
+    <a class="nav-link" href="../chapter2/section1.html">RHODS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../chapter2/section2.html">Data Exploration</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../chapter2/section3.html">Create a model</a>
   </li>
 </ul>
   </li>
@@ -79,7 +82,7 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="../chapter3/index.html">Chapter 3</a>
+    <a class="nav-link" href="../chapter3/index.html">Load a ML model and perform Hyperparameter tuning</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="../chapter3/section1.html">Section 1</a>
@@ -94,7 +97,7 @@
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="../appendix/appendix.html">Appendix A</a>
+    <a class="nav-link" href="../appendix/appendix.html">Appendix</a>
   </li>
 </ul>
   </li>
@@ -127,8 +130,8 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="../index.html">Creating Machine Learning Models with Red Hat OpenShift Data Science</a></li>
-    <li><a href="index.html">Chapter 1</a></li>
-    <li><a href="section1.html">Section 1</a></li>
+    <li><a href="index.html">Introduction to Machine Learning</a></li>
+    <li><a href="section1.html">Machine Learning Concepts</a></li>
   </ul>
 </nav>
 </div>
@@ -137,13 +140,95 @@
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Section 1</h1>
+<h1 class="page">Machine Learning Concepts</h1>
+<div class="sect1">
+<h2 id="_what_is_machine_learning"><a class="anchor" href="#_what_is_machine_learning"></a>What is Machine Learning</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>This is <em>Section 1</em> of <em>Chapter 1</em> in the <strong>hello</strong> quick course&#8230;&#8203;.</p>
+<p>Many problems, like recognizing people and objects or understanding human speech, are extremely difficult to program.</p>
+</div>
+<div class="paragraph">
+<p>Machine Learning can be a solution to this as we can train an algorithm to automatically learn from data or from experience. It allows computers to learn and make predictions or decisions without being explicitly programmed.</p>
+</div>
+<div class="paragraph">
+<p>It involves training a model on a dataset to recognize patterns and make informed predictions or decisions on new, unseen data.</p>
+</div>
+<div class="paragraph">
+<p>Machine Learning has revolutionized various industries, including healthcare, finance and transportation.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_when_to_use_machine_learning"><a class="anchor" href="#_when_to_use_machine_learning"></a>When to use Machine Learning</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Good machine learning scenarios often have the following common properties:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>They involve a repeated decision or evaluation which you want to automate and need consistent results.</p>
+</li>
+<li>
+<p>It is difficult or impossible to explicitly describe the solution or criteria behind a decision.</p>
+</li>
+<li>
+<p>It is not possible to develop an optimal solution by using classic programming paradigms, such as imperative programming.</p>
+</li>
+<li>
+<p>You have labeled data, or existing examples where you can describe the situation and map it to the correct result.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_types_of_machine_learning"><a class="anchor" href="#_types_of_machine_learning"></a>Types of Machine Learning</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Supervised learning</dt>
+<dd>
+<p>Learning from labeled data. The model learns to generalize from the training data and make predictions on unseen data. E.g estimate the price of a house, recognize which animal is present in a picture.</p>
+</dd>
+<dt class="hdlist1">Unsupervised learning</dt>
+<dd>
+<p>Learning from unlabeled data to discover patterns or relationships without explicit guidance. The model discovers hidden structures or insights within the data. E.g Identify different segments or groups of customers based on their spending habits, items that have a high possibility of being purchased together in a supermarket, anomaly detection.</p>
+</dd>
+<dt class="hdlist1">Semi-Supervised Learning</dt>
+<dd>
+<p>Semi-Supervised learning is a machine learning algorithm that works between the supervised and unsupervised learning. So it uses both labelled and unlabelled data. It is particularly useful when obtaining labeled data is costly, time-consuming, or resource-intensive.</p>
+</dd>
+<dt class="hdlist1">Reinforcement learning</dt>
+<dd>
+<p>It involves an agent learning to make decisions through trial and error interactions with an environment. The agent receives feedback in the form of rewards or penalties for its actions, guiding it towards achieving a goal by maximizing the rewards. E.g Autonomous driving, AlphaGo learning to play Go by playing against itself.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_is_a_machine_learning_model"><a class="anchor" href="#_what_is_a_machine_learning_model"></a>What is a Machine Learning model</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A Machine Learning model is a file that has been trained to recognize certain types of patterns. You train a model over a set of data, providing it with an algorithm that it can use to reason over and learn from that data.</p>
+</div>
+<div class="paragraph">
+<p>Once you have trained the model, you can use it to reason over data that it has not seen before, and make predictions about that data. For example, let&#8217;s say you want to build an application that can recognize a user&#8217;s emotions based on their facial expressions. You can train a model by providing it with images of faces that are each tagged with a certain emotion, and then you can use that model in an application that can recognize any user&#8217;s emotion.</p>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="_images/model-flow.png" alt="model flow">
+</div>
+</div>
+<div class="paragraph">
+<p>Hence, as we can see in the image above, we extract patterns from the data that we have and create a machine learning model. We can then use this model to evaluate and make predictions about the future or on data that the model has never seen before.</p>
+</div>
+</div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="index.html">Chapter 1</a></span>
-  <span class="next"><a href="section2.html">Section 2</a></span>
+  <span class="prev"><a href="index.html">Introduction to Machine Learning</a></span>
+  <span class="next"><a href="section2.html">ML Workflow</a></span>
 </nav>
 </article>
   </div>
