@@ -1,3 +1,17 @@
-= Section 1
+= RHODS
 
-This is _Section 1_ of _Chapter 2_ in the *hello* quick course....
+Set up a Data Science project in RHODS and create a new Workbench to work on the code.
+
+== Create a new data science project
+
+image::dsp_1.png[align="center"]
+
+image::dsp_2.png[align="center"]
+
+== Create a new Workbench
+
+image::wb_1.png[align="center"]
+
+Select the PyTorch Image for this lab. Keep the other selections same as the defaults.
+
+image::wb_2.png[align="center"]
