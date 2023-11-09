@@ -1,3 +1,7 @@
-= Section 1
+= Load a model and improve its performance
 
-This is _Section 1_ of _Chapter 3_ in the *hello* quick course....
+This section covers how to load a PyTorch model that we created and saved and perform some Hyperparameter tunining in order to improve its performance.
+
+Open the 'PyTorch' WorkBench and clone the following Github repository https://github.com/RedHatQuickCourses/rhods-qc-apps.git
+
+By using the file browser in JupyterLab, open the '3.create-model/pytorch-lab/notebooks' directory, open the '03-model-improvement.ipynb' notebook and follow the instructions.
