@@ -2,14 +2,14 @@
 
 == A common machine learning workflow
 
-Data Preparation: Collecting, cleaning, and preprocessing the data. E.g removing outliers.
+Data Exploration and Preparation: Includes collecting, cleaning, and preprocessing the data. This means investigating, removing and/or substituting missing data points and outliers. Representation of occurances and labels is also investigated and visualized through different techinques.
 
-Feature Engineering: Selecting or creating relevant features to represent the data. E.g binning income.
+Feature Engineering: Selecting and/or creating relevant features to represent the data. One example is creating another feature to indicate whether an occurance is missing a variable or not, especially if it follows a pattner. Another is masking gender or transforming age into intervals in order to not discriminate towards age. Sometimes a feature may be deemed non-contributing and removed all together. 
 
-Model Creation and Evaluation: Creating and choosing an appropriate model and evaluating its performance.
+Model Creation and Evaluation: Creating and choosing an appropriate model and evaluating its performance. This proccess is very iterative and several models may be tested and applied on the data set. The data will be diveded between a train and test data and there are several different way to split the data and what ratio to use.
 
 Hyperparameter Tuning: Optimizing model parameters for improved performance. E.g Increasing or decreasing the number of trees in the Random Forest algorithm.
 
-Deployment and Monitoring: Deploying the model in a production environment and monitoring its performance over time.
+Deployment and Monitoring: Deploying the model in a production environment and monitoring its performance over time. Since data changes over time, new events may occur that the algorithm have not encountered in any training and test set. If the model performance is decreasing as time passes, alerts can be triggered and retraining intitated to incorperate the new events, and deploy an update model to production. 
 
 image::ml-workflow.png[align="center"]
