@@ -48,7 +48,9 @@ Knowing the outcome variable you are able to identify if its supervised, unsuper
 
 A Machine Learning model is a file that has been trained to recognize certain types of patterns. You train a model over a set of data, providing it with an algorithm that it can use to reason over and learn from that data.
 
-Once you have trained the model, you can use it to reason over data that it has not seen before but comes from the same applicability domain, and make predictions about that data. For example, let's say you want to build an application that can recognize a user's emotions based on their facial expressions. You can train a model by providing it with images of faces that are each tagged with a certain emotion, and then you can use that model in an application that can recognize any user's emotion.
+Once you have trained the model, you can use it to reason over data that it has not seen before but comes from the same applicability domain, and make predictions about that data. This ability, called _generalization_, is a key concept in machine learning, as it refers to the capacity of models to adapt to unseen data.
+
+ For example, let's say you want to build an application that can recognize a user's emotions based on their facial expressions. You can train a model by providing it with images of faces that are each tagged with a certain emotion, and then you can use that model in an application that can recognize any user's emotion.
 
 image::model-flow.png[align="center"]
 
