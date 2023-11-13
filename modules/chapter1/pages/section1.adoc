@@ -23,7 +23,7 @@ Good machine learning scenarios often have the following common properties:
 == Types of Machine Learning
 
 Supervised learning::
-Learning from labeled data, meaning the variables and categories are already known. The model is instructed to learn from the training data andmake predictions on unseen data. E.g estimate the price of a house, recognize which animal is present in a picture. Examples of algorithms fitting into this category are linear regressions, logistic regressions, support vector machines (SVMs), neural networks (deep or simple), decision trees, random forests and others. 
+Learning from labeled data, meaning the variables and categories are already known. The model is instructed to learn from the training data and make predictions on unseen data. E.g. estimate the price of a house, recognize which animal is present in a picture. Examples of algorithms fitting into this category are linear regressions, logistic regressions, support vector machines (SVMs), neural networks (deep or simple), decision trees, random forests and others. 
 
 Unsupervised learning:: 
 Learning from unlabeled data to discover patterns or relationships without explicit guidance as to what exists in the data. The model discovers hidden structures or insights within the data. E.g Identify different segments or groups of customers based on their spending habits, items that have a high possibility of being purchased together in a supermarket, anomaly detection. Examples of algorithms fitting into this category are K-means clustering, K-nearest neighbords(KNN), Density-based spatial clusering of applications with noise (DBSCAN), Principal Component Analysis(PCA) and autoencoders. 
