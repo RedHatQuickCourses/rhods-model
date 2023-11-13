@@ -38,7 +38,7 @@ In comparison to the previous groups of algorithms mentioned, reinforcement lear
 We have a plethora of mathematical algorithms that may, or may not, solve our problem and be applied on our data. But, how do you recognise the category of problem and the algorithm that can help you solve it?
 The clue lies with your outcome variable.
  
-In a classification problem, the outcome variable (the event you want to predict) is a category or class label. It can be binary, such as "Sick" or "Healthy", "Yes" or "No". They can be multi-class such as for image recognition when you want to identify more than 2 classes or labels. 
+In a classification problem, the outcome variable (the event you want to predict) is a category or class label. It can be binary, such as "Sick" or "Healthy", "Yes" or "No". The problem can be multi-class, such as for image recognition, when you want to identify more than two classes or labels, for example, dog breeds. Lastly, you can also have multi-label problems, where the model assigns more than one label to the same record. For example, a model might detect multiple labels in a single  music clip, e.g. rock, pop, 90s.
 
 In a regression problem, the outcome variable is a continuous value and the goal is predicting a quantitative value. Common examples are predicting house prices, temperatures and sale revenues. 
 
