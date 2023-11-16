@@ -10,6 +10,6 @@ Model Creation and Evaluation: Creating and choosing an appropriate model and ev
 
 Hyperparameter Tuning: Optimizing model parameters for improved performance. E.g Increasing or decreasing the number of trees in the Random Forest algorithm.
 
-Deployment and Monitoring: Deploying the model in a production environment and monitoring its performance over time. Since data changes over time, new events may occur that the algorithm have not encountered in any training and test set. If the model performance is decreasing as time passes, alerts can be triggered and retraining initiated to incorporate the new events, and deploy and update the model to production. 
+Deployment and Monitoring: Deploying the model in a production environment and monitoring its performance over time. Since data changes over time, new events may occur that the algorithm has not encountered in any training and test set. If the model performance is decreasing as time passes, alerts can be triggered and retraining initiated to incorporate the new events and deploy and update the model to production. 
 
 image::ml-workflow.png[align="center"]
