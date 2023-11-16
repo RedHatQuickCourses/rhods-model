@@ -6,7 +6,7 @@ Data Exploration and Preparation: Includes collecting, cleaning, and preprocessi
 
 Feature Engineering: Selecting and/or creating relevant features to represent the data. One example is to create another feature to indicate whether an occurrence is missing a variable or not, especially if it follows a pattern. Another is to mask gender or transform age into intervals in order to not discriminate towards age. Sometimes a feature may be deemed non-contributing and removed altogether. 
 
-Model Creation and Evaluation: Creating and choosing an appropriate model and evaluating its performance. This proccess is very iterative and several models may be tested and applied on the data set. The data will be diveded between a train and test data and there are several different way to split the data and what ratio to use.
+Model Creation and Evaluation: Creating and choosing an appropriate model and evaluating its performance. This process is very iterative, and several models may be tested and applied on the data set. The data is divided between a train and test data, and there are several different ways to split the data.
 
 Hyperparameter Tuning: Optimizing model parameters for improved performance. E.g Increasing or decreasing the number of trees in the Random Forest algorithm.
 
