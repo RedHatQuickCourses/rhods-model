@@ -4,4 +4,4 @@ This section covers how to create and save a PyTorch model.
 
 Open the 'PyTorch' WorkBench and clone the following Github repository https://github.com/RedHatQuickCourses/rhods-qc-apps.git
 
-By using the file browser in JupyterLab, open the '3.create-model/pytorch-lab/notebooks' directory, open the '02-model-development.ipynb' notebook and follow the instructions.
+By using the file browser in JupyterLab, open the `3.create-model/pytorch-lab/notebooks` directory, open the `02-model-development.ipynb` notebook and follow the instructions.

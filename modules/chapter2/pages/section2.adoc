@@ -1,6 +1,6 @@
 = Data Exploration
 
-This section covers Data Exploration of the Diabetes dataset that you will use for this lab.
+This section covers data exploration of the `Diabetes` dataset that you will use for this lab.
 
 Open the 'PyTorch' workbench and clone the following Github repository https://github.com/RedHatQuickCourses/rhods-qc-apps.git
 
