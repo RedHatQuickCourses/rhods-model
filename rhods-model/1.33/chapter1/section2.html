@@ -144,20 +144,29 @@
 <div class="sect1">
 <h2 id="_a_common_machine_learning_workflow"><a class="anchor" href="#_a_common_machine_learning_workflow"></a>A common machine learning workflow</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Data Exploration and Preparation: Includes collecting, cleaning, and preprocessing the data. This means investigating, removing and/or substituting missing data points and outliers. Representation of occurances and labels is also investigated and visualized through different techinques.</p>
-</div>
-<div class="paragraph">
-<p>Feature Engineering: Selecting and/or creating relevant features to represent the data. One example is to create another feature to indicate whether an occurrence is missing a variable or not, especially if it follows a pattern. Another is to mask gender or transform age into intervals in order to not discriminate towards age. Sometimes a feature may be deemed non-contributing and removed altogether.</p>
-</div>
-<div class="paragraph">
-<p>Model Creation and Evaluation: Creating and choosing an appropriate model and evaluating its performance. This process is very iterative, and several models may be tested and applied on the data set. The data is divided between a train and test data, and there are several different ways to split the data.</p>
-</div>
-<div class="paragraph">
-<p>Hyperparameter Tuning: Optimizing model parameters for improved performance. E.g Increasing or decreasing the number of trees in the Random Forest algorithm.</p>
-</div>
-<div class="paragraph">
-<p>Deployment and Monitoring: Deploying the model in a production environment and monitoring its performance over time. Since data changes over time, new events may occur that the algorithm has not encountered in any training and test set. If the model performance is decreasing as time passes, alerts can be triggered and retraining initiated to incorporate the new events and deploy and update the model to production.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Data Exploration and Preparation</dt>
+<dd>
+<p>Includes collecting, cleaning, and preprocessing the data. This means investigating, removing and/or substituting missing data points and outliers. Representation of occurances and labels is also investigated and visualized through different techinques.</p>
+</dd>
+<dt class="hdlist1">Feature Engineering</dt>
+<dd>
+<p>Selecting and/or creating relevant features to represent the data. One example is to create another feature to indicate whether an occurrence is missing a variable or not, especially if it follows a pattern. Another is to mask gender or transform age into intervals in order to not discriminate towards age. Sometimes a feature may be deemed non-contributing and removed altogether.</p>
+</dd>
+<dt class="hdlist1">Model Creation and Evaluation</dt>
+<dd>
+<p>Creating and choosing an appropriate model and evaluating its performance. This process is very iterative, and several models may be tested and applied on the data set. The data is divided between a train and test data, and there are several different ways to split the data.</p>
+</dd>
+<dt class="hdlist1">Hyperparameter Tuning</dt>
+<dd>
+<p>Optimizing model parameters for improved performance. E.g Increasing or decreasing the number of trees in the Random Forest algorithm.</p>
+</dd>
+<dt class="hdlist1">Deployment and Monitoring</dt>
+<dd>
+<p>Deploying the model in a production environment and monitoring its performance over time. Since data changes over time, new events may occur that the algorithm has not encountered in any training and test set. If the model performance is decreasing as time passes, alerts can be triggered and retraining initiated to incorporate the new events and deploy and update the model to production.</p>
+</dd>
+</dl>
 </div>
 <div class="imageblock text-center">
 <div class="content">
