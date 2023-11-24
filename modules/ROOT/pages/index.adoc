@@ -6,7 +6,7 @@ This course is the fourth in a series of 6 courses about Red Hat OpenShift Data 
 
 1. https://redhatquickcourses.github.io/rhods-intro[Introduction to Red Hat OpenShift Data Science]
 2. https://redhatquickcourses.github.io/rhods-admin[Red Hat OpenShift Data Science Administration]
-3. https://redhatquickcourses.github.io/rhods-analysis[Data Analysis and Visualization with Red Hat OpenShift Data Science]
+3. Data Analysis and Visualization with Red Hat OpenShift Data Science (Under Development)
 4. Creating Machine Learning Models with Red Hat OpenShift Data Science (_This course_)
 5. https://redhatquickcourses.github.io/rhods-deploy[Machine Learning Models with Red Hat OpenShift Data Science]
 6. https://redhatquickcourses.github.io/rhods-pipelines[Automation using Data Science Pipelines]
