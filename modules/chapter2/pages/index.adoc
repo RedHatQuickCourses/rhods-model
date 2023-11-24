@@ -1,3 +1,3 @@
-= Create and save a Pytorch model
+= Create and Save a PyTorch Model
 
-This hands-on lab session covers some basic Data Exploration with python and how to create and save a Pytorch model.
+This hands-on lab session covers some basic data exploration with python and how to create and save a PyTorch model.

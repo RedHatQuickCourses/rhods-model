@@ -1,4 +1,4 @@
-= RHODS
+= Setup
 
 Set up a Data Science project in RHODS and create a new Workbench to work on the code.
 
