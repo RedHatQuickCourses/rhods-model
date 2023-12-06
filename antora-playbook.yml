@@ -1,5 +1,5 @@
 site:
-  title: Creating Machine Learning Models with Red Hat OpenShift Data Science
+  title: Creating Machine Learning Models with Red Hat OpenShift AI
   start_page: rhods-model::index.adoc
 
 content:

@@ -3,7 +3,7 @@
 == A common machine learning workflow
 
 Data Exploration and Preparation::
-Includes collecting, cleaning, and preprocessing the data. This means investigating, removing and/or substituting missing data points and outliers. Representation of occurances and labels is also investigated and visualized through different techinques.
+Includes collecting, cleaning, and preprocessing the data. This means investigating, removing and/or substituting missing data points and outliers. Representation of occurrence and labels is also investigated and visualized through different techniques.
 
 Feature Engineering::
 Selecting and/or creating relevant features to represent the data. One example is to create another feature to indicate whether an occurrence is missing a variable or not, especially if it follows a pattern. Another is to mask gender or transform age into intervals in order to not discriminate towards age. Sometimes a feature may be deemed non-contributing and removed altogether.
