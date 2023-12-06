@@ -4,13 +4,13 @@
 Welcome to this quick course on the _Creating Machine Learning Models with Red Hat OpenShift AI_.
 This course is the *third* in a series of *five* courses about Red Hat OpenShift AI:
 
-1. https://redhatquickcourses.github.io/RHOAI-intro[Introduction to Red Hat OpenShift AI]
-2. https://redhatquickcourses.github.io/RHOAI-admin[Red Hat OpenShift AI Administration]
+1. https://redhatquickcourses.github.io/rhods-intro[Introduction to Red Hat OpenShift AI]
+2. https://redhatquickcourses.github.io/rhods-admin[Red Hat OpenShift AI Administration]
 3. Creating Machine Learning Models with Red Hat OpenShift Data Science (_This course_)
-4. https://redhatquickcourses.github.io/RHOAI-deploy[Deploying Machine Learning Models with Red Hat OpenShift AI]
-5. https://redhatquickcourses.github.io/RHOAI-pipelines[Automation using Data Science Pipelines]
+4. https://redhatquickcourses.github.io/rhods-deploy[Deploying Machine Learning Models with Red Hat OpenShift AI]
+5. https://redhatquickcourses.github.io/rhods-pipelines[Automation using Data Science Pipelines]
 
-NOTE: After you have completed all the courses in the learning path, you can attempt the https://github.com/RedHatQuickCourses/RHOAI-qc-apps/tree/main/7.hands-on-lab["Hit the RHOAI"] exercise, that tests your understanding of the concepts taught in all the courses.
+NOTE: After you have completed all the courses in the learning path, you can attempt the https://github.com/RedHatQuickCourses/rhods-qc-apps/tree/main/7.hands-on-lab["Hit the RHOAI"] exercise, that tests your understanding of the concepts taught in all the courses.
 
 == Authors
 
