@@ -2,6 +2,6 @@
 
 This section covers data exploration of the `Diabetes` dataset that you will use for this lab.
 
-Open the 'PyTorch' workbench and clone the following Github repository https://github.com/RedHatQuickCourses/rhods-qc-apps.git
+Open the `pytorch-demo` workbench and clone the following GitHub repository https://github.com/RedHatQuickCourses/rhods-qc-apps.git
 
 By using the file browser in JupyterLab, open the `3.create-model/pytorch-lab/notebooks` directory, open the `01-data-exploration.ipynb` notebook, and follow the instructions.
