@@ -4,14 +4,22 @@ Set up a Data Science project in RHAOI and create a new Workbench to work on the
 
 == Create a new data science project
 
+Navigate to btn:[Data Science Projects] and click btn:[Create data science project].
+
 image::dsp_1.png[align="center"]
+
+Create a project called `pytorch-demo`.
 
 image::dsp_2.png[align="center"]
 
 == Create a new Workbench
 
+In the project dashboard, click btn:[Create workbench].
+
 image::wb_1.png[align="center"]
 
-Select the PyTorch Image for this lab. Keep the other selections same as the defaults.
+Enter `pytorch-demo` as the workbench name.
+Select the recommended PyTorch image.
+Leave the other configuration properties unchanged.
 
 image::wb_2.png[align="center"]
