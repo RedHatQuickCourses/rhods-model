@@ -12,6 +12,8 @@ This course is the *third* in a series of *five* courses about Red Hat OpenShift
 
 NOTE: After you have completed all the courses in the learning path, you can attempt the https://github.com/RedHatQuickCourses/rhods-qc-apps/tree/main/7.hands-on-lab["Hit the RHOAI"] exercise, that tests your understanding of the concepts taught in all the courses.
 
+// Shoud it be "Hit the RHODS" exercise?
+
 == Authors
 
 The PTL team acknowledges the valuable contributions of the following Red Hat associates:
@@ -36,7 +38,7 @@ You are expected to complete the _Red Hat OpenShift AI Administration_ course, w
 
 == Prerequisites
 
-* Take the Introduction to https://www.redhat.com/en/services/training/ad141-red-hat-training-presents-introduction-to-python-programming[Python Programming (AD141)] training course or demonstrate equivalent knowledge of Python programming
+* Take the Introduction to https://www.redhat.com/en/services/training/ad141-red-hat-training-presents-introduction-to-python-programming[Python Programming (AD141)] training course or demonstrate equivalent knowledge of Python programming.
 * Basic knowledge of machine learning foundations is recommended.
 * Basic knowledge of the PyTorch Python library for machine learning and deep learning.
 
@@ -47,4 +49,4 @@ The overall objectives of this introductory course include:
 * Describe basic machine learning concepts
 * Describe the different types of machine learning 
 * Create and train machine learning models
-* Machine Learning Workflows
+* Learn about the Machine Learning Workflows
